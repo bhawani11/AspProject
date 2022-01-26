@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Iteration1">
+    <parameter name ="userName" value="user@aspireapp.com"/>
+    <parameter name="password" value="@sp1r3app"/>
+    <classes>
+      <class name="Aspirepac.NewTest"/>
+      <class name="Aspirepac.InventoryTest"/>
+    </classes> 
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
