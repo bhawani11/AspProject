@@ -7,7 +7,6 @@
     <classes>
       <class name="Aspirepac.InventoryTest">
         <methods>
-          <include name="verifyProduct"/>
           <include name="verifyUpdateValue"/>
           <include name="setUp"/>
           <include name="afterMethod"/>

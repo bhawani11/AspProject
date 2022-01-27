@@ -9,13 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Iteration1</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">68,263</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Iteration1</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">126,821</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Iteration1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Aspirepac.InventoryTest</td><td><a href="#m0">clickAndVerifyInventoryPage</a></td><td rowspan="1">1643175129187</td><td rowspan="1">1301</td></tr><tr class="passedeven"><td><a href="#m1">verifyProduct</a></td><td rowspan="1">1643175141993</td><td rowspan="1">6734</td></tr><tr class="passedeven"><td><a href="#m2">verifyUpdateValue</a></td><td rowspan="1">1643175160894</td><td rowspan="1">5542</td></tr><tr class="passedodd"><td rowspan="3">Aspirepac.NewTest</td><td><a href="#m3">launch</a></td><td rowspan="1">1643175098609</td><td rowspan="1">7004</td></tr><tr class="passedodd"><td><a href="#m4">login</a></td><td rowspan="1">1643175105639</td><td rowspan="1">9773</td></tr><tr class="passedodd"><td><a href="#m5">validateTitle</a></td><td rowspan="1">1643175105621</td><td rowspan="1">12</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Iteration1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Aspirepac.InventoryTest</td><td><a href="#m0">verifyUpdateValue</a></td><td rowspan="1">1643257048311</td><td rowspan="1">28758</td></tr><tr><th colspan="4">Iteration1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Aspirepac.InventoryTest</td><td><a href="#m1">clickAndVerifyInventoryPage</a></td><td rowspan="1">1643256998063</td><td rowspan="1">1297</td></tr><tr class="passedeven"><td><a href="#m2">verifyProduct</a></td><td rowspan="1">1643257020816</td><td rowspan="1">7283</td></tr><tr class="passedodd"><td rowspan="3">Aspirepac.NewTest</td><td><a href="#m3">launch</a></td><td rowspan="1">1643256950777</td><td rowspan="1">21173</td></tr><tr class="passedodd"><td><a href="#m4">login</a></td><td rowspan="1">1643256971981</td><td rowspan="1">10012</td></tr><tr class="passedodd"><td><a href="#m5">validateTitle</a></td><td rowspan="1">1643256971962</td><td rowspan="1">11</td></tr></tbody>
 </table>
-<h2>Iteration1</h2><h3 id="m0">Aspirepac.InventoryTest#clickAndVerifyInventoryPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Aspirepac.InventoryTest#verifyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Aspirepac.InventoryTest#verifyUpdateValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Iteration1</h2><h3 id="m0">Aspirepac.InventoryTest#verifyUpdateValue</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button.btn.btn-primary.o_list_button_add&quot;}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;DESKTOP-22OV6SS&apos;, ip: &apos;192.168.89.235&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAWANI\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bed8faaeb25db99edc00d1494be7cb6c
+*** Element info: {Using=css selector, value=button.btn.btn-primary.o_list_button_add}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Aspirepac.InventoryTest.verifyUpdateValue(InventoryTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Aspirepac.InventoryTest#clickAndVerifyInventoryPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Aspirepac.InventoryTest#verifyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">Aspirepac.NewTest#launch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">Aspirepac.NewTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user@aspireapp.com</td><td>@sp1r3app</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">Aspirepac.NewTest#validateTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
