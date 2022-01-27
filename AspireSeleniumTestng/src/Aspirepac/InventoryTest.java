@@ -68,8 +68,8 @@ public class InventoryTest {
       driver.findElement(By.xpath("//*[contains(text(),'Update Quantity')]")).click();
       driver.findElement(By.cssSelector("button.btn.btn-primary.o_list_button_add")).click();
       
-      webElement e=driver.findElement(By.xpath("(//input[@class=\"o_input ui-autocomplete-input\"])[1]")).click();
-            Select s=new Select(e)
+//      webElement e=driver.findElement(By.xpath("(//input[@class=\"o_input ui-autocomplete-input\"])[1]")).click();
+//            Select s=new Select(e)
   }
   
   public void login(String x, String y) throws Exception
