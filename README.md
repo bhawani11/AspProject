@@ -1,11 +1,11 @@
 # AspProject
 This repository contain testNG framework
 To run this project:-
-Install eclipse (https://www.eclipse.org/)
-Clone Git repository from https://github.com/bhawani11/AspProject
-Jdk should be installed in the system
-Set java path to environment variable like this : JAVA_HOME=.\Java\jdk-14.0.2 10
-There are way to run the tests:
+1) Install eclipse (https://www.eclipse.org/)
+2) Clone Git repository from https://github.com/bhawani11/AspProject
+3) Jdk should be installed in the system
+4) Set java path to environment variable like this : JAVA_HOME=.\Java\jdk-14.0.2 10
+to run the tests:
 run testng.xml file (right click on file and run RunAs testNG suite)
 TestNG (Recommended)
 
